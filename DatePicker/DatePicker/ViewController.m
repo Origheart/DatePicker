@@ -18,13 +18,6 @@
 
 @implementation ViewController
 
-#pragma mark - LifeCycle
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-}
-
 #pragma mark - Target & Actions
 
 - (IBAction)show:(UIButton *)sender {

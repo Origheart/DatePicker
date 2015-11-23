@@ -13,10 +13,10 @@
 		B915DE5D1C02F752005C552C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B915DE5B1C02F752005C552C /* Main.storyboard */; };
 		B915DE5F1C02F752005C552C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B915DE5E1C02F752005C552C /* Assets.xcassets */; };
 		B915DE621C02F752005C552C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B915DE601C02F752005C552C /* LaunchScreen.storyboard */; };
-		B915DE6F1C02F830005C552C /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE6C1C02F830005C552C /* DatePickerViewController.m */; };
-		B915DE701C02F830005C552C /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE6E1C02F830005C552C /* DatePicker.m */; };
-		B915DE761C02F8B9005C552C /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE731C02F8B9005C552C /* TDSemiModalViewController.m */; };
-		B915DE771C02F8B9005C552C /* UIViewController+TDSemiModalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE751C02F8B9005C552C /* UIViewController+TDSemiModalExtension.m */; };
+		B915DE841C0307BE005C552C /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE7B1C0307BD005C552C /* DatePicker.m */; };
+		B915DE851C0307BE005C552C /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE7D1C0307BE005C552C /* DatePickerViewController.m */; };
+		B915DE861C0307BE005C552C /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE811C0307BE005C552C /* TDSemiModalViewController.m */; };
+		B915DE871C0307BE005C552C /* UIViewController+TDSemiModalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B915DE831C0307BE005C552C /* UIViewController+TDSemiModalExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,15 +30,15 @@
 		B915DE5E1C02F752005C552C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B915DE611C02F752005C552C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B915DE631C02F752005C552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B915DE6B1C02F830005C552C /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
-		B915DE6C1C02F830005C552C /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
-		B915DE6D1C02F830005C552C /* DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePicker.h; sourceTree = "<group>"; };
-		B915DE6E1C02F830005C552C /* DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePicker.m; sourceTree = "<group>"; };
-		B915DE711C02F8B9005C552C /* TDSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSemiModal.h; sourceTree = "<group>"; };
-		B915DE721C02F8B9005C552C /* TDSemiModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSemiModalViewController.h; sourceTree = "<group>"; };
-		B915DE731C02F8B9005C552C /* TDSemiModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalViewController.m; sourceTree = "<group>"; };
-		B915DE741C02F8B9005C552C /* UIViewController+TDSemiModalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TDSemiModalExtension.h"; sourceTree = "<group>"; };
-		B915DE751C02F8B9005C552C /* UIViewController+TDSemiModalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TDSemiModalExtension.m"; sourceTree = "<group>"; };
+		B915DE7A1C0307BD005C552C /* DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePicker.h; sourceTree = "<group>"; };
+		B915DE7B1C0307BD005C552C /* DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePicker.m; sourceTree = "<group>"; };
+		B915DE7C1C0307BD005C552C /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		B915DE7D1C0307BE005C552C /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		B915DE7F1C0307BE005C552C /* TDSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSemiModal.h; sourceTree = "<group>"; };
+		B915DE801C0307BE005C552C /* TDSemiModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSemiModalViewController.h; sourceTree = "<group>"; };
+		B915DE811C0307BE005C552C /* TDSemiModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalViewController.m; sourceTree = "<group>"; };
+		B915DE821C0307BE005C552C /* UIViewController+TDSemiModalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TDSemiModalExtension.h"; sourceTree = "<group>"; };
+		B915DE831C0307BE005C552C /* UIViewController+TDSemiModalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TDSemiModalExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		B915DE511C02F752005C552C /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				B915DE691C02F7FC005C552C /* Classes */,
+				B915DE791C0307BD005C552C /* Classes */,
 				B915DE6A1C02F80A005C552C /* Example */,
 				B915DE521C02F752005C552C /* Supporting Files */,
 			);
@@ -84,18 +84,6 @@
 				B915DE531C02F752005C552C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B915DE691C02F7FC005C552C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B915DE781C02F8C5005C552C /* TDSemiModal */,
-				B915DE6B1C02F830005C552C /* DatePickerViewController.h */,
-				B915DE6C1C02F830005C552C /* DatePickerViewController.m */,
-				B915DE6D1C02F830005C552C /* DatePicker.h */,
-				B915DE6E1C02F830005C552C /* DatePicker.m */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		B915DE6A1C02F80A005C552C /* Example */ = {
@@ -113,16 +101,28 @@
 			name = Example;
 			sourceTree = "<group>";
 		};
-		B915DE781C02F8C5005C552C /* TDSemiModal */ = {
+		B915DE791C0307BD005C552C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B915DE711C02F8B9005C552C /* TDSemiModal.h */,
-				B915DE721C02F8B9005C552C /* TDSemiModalViewController.h */,
-				B915DE731C02F8B9005C552C /* TDSemiModalViewController.m */,
-				B915DE741C02F8B9005C552C /* UIViewController+TDSemiModalExtension.h */,
-				B915DE751C02F8B9005C552C /* UIViewController+TDSemiModalExtension.m */,
+				B915DE7A1C0307BD005C552C /* DatePicker.h */,
+				B915DE7B1C0307BD005C552C /* DatePicker.m */,
+				B915DE7C1C0307BD005C552C /* DatePickerViewController.h */,
+				B915DE7D1C0307BE005C552C /* DatePickerViewController.m */,
+				B915DE7E1C0307BE005C552C /* TDSemiModal */,
 			);
-			name = TDSemiModal;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B915DE7E1C0307BE005C552C /* TDSemiModal */ = {
+			isa = PBXGroup;
+			children = (
+				B915DE7F1C0307BE005C552C /* TDSemiModal.h */,
+				B915DE801C0307BE005C552C /* TDSemiModalViewController.h */,
+				B915DE811C0307BE005C552C /* TDSemiModalViewController.m */,
+				B915DE821C0307BE005C552C /* UIViewController+TDSemiModalExtension.h */,
+				B915DE831C0307BE005C552C /* UIViewController+TDSemiModalExtension.m */,
+			);
+			path = TDSemiModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,13 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B915DE6F1C02F830005C552C /* DatePickerViewController.m in Sources */,
-				B915DE771C02F8B9005C552C /* UIViewController+TDSemiModalExtension.m in Sources */,
 				B915DE5A1C02F752005C552C /* ViewController.m in Sources */,
-				B915DE761C02F8B9005C552C /* TDSemiModalViewController.m in Sources */,
+				B915DE871C0307BE005C552C /* UIViewController+TDSemiModalExtension.m in Sources */,
 				B915DE571C02F752005C552C /* AppDelegate.m in Sources */,
+				B915DE861C0307BE005C552C /* TDSemiModalViewController.m in Sources */,
 				B915DE541C02F752005C552C /* main.m in Sources */,
-				B915DE701C02F830005C552C /* DatePicker.m in Sources */,
+				B915DE851C0307BE005C552C /* DatePickerViewController.m in Sources */,
+				B915DE841C0307BE005C552C /* DatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +348,7 @@
 				B915DE681C02F752005C552C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

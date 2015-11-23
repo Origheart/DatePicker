@@ -221,7 +221,7 @@
 
 - (void)initialize
 {
-    self.backgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1];
+    self.backgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1.f];
     [self addSubview:self.titleContainer];
     [self addSubview:self.picker];
 }
@@ -345,7 +345,7 @@
 {
     if (_titleContainer == nil) {
         _titleContainer = [[UIView alloc] init];
-        _titleContainer.backgroundColor = [UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
+        _titleContainer.backgroundColor = [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.f];
         [_titleContainer addSubview:self.cancelButton];
         [_titleContainer addSubview:self.confirmButton];
         [_titleContainer addSubview:self.titleLabel];
